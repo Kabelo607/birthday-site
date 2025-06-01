@@ -12,7 +12,7 @@
 
     .scroll-container {
 
-      height: 400px; /* Fixed height */
+      height: 700px; /* Fixed height */
 
       overflow-y: scroll; /* Enables vertical scrolling */
 
