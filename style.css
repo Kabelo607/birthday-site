@@ -673,5 +673,229 @@ body {
     color: #6f42c1;
 
   }
+  body {
+
+    background: #d0f0f7;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    height: 100vh;
+
+    margin: 0;
+
+  }
+
+  .panda {
+
+    position: relative;
+
+    width: 250px;
+
+    height: 220px;
+
+    background: #fff;
+
+    border-radius: 50% / 45%;
+
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+
+  }
+
+  /* Ears */
+
+  .ear {
+
+    position: absolute;
+
+    width: 70px;
+
+    height: 70px;
+
+    background: black;
+
+    border-radius: 50%;
+
+    top: -30px;
+
+  }
+
+  .ear.left {
+
+    left: 20px;
+
+    box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 0.15);
+
+  }
+
+  .ear.right {
+
+    right: 20px;
+
+    box-shadow: inset 10px -10px 15px rgba(255, 255, 255, 0.15);
+
+  }
+
+  /* Face patches */
+
+  .eye-patch {
+
+    position: absolute;
+
+    width: 80px;
+
+    height: 100px;
+
+    background: black;
+
+    border-radius: 45% / 55%;
+
+    top: 40px;
+
+  }
+
+  .eye-patch.left {
+
+    left: 30px;
+
+    transform: rotate(-10deg);
+
+  }
+
+  .eye-patch.right {
+
+    right: 30px;
+
+    transform: rotate(10deg);
+
+  }
+
+  /* Eyes */
+
+  .eye {
+
+    position: absolute;
+
+    width: 30px;
+
+    height: 30px;
+
+    background: white;
+
+    border-radius: 50%;
+
+    top: 70px;
+
+  }
+
+  .eye::before {
+
+    content: "";
+
+    position: absolute;
+
+    width: 14px;
+
+    height: 14px;
+
+    background: black;
+
+    border-radius: 50%;
+
+    top: 8px;
+
+    left: 8px;
+
+  }
+
+  .eye.left {
+
+    left: 55px;
+
+  }
+
+  .eye.right {
+
+    right: 55px;
+
+  }
+
+  /* Nose */
+
+  .nose {
+
+    position: absolute;
+
+    width: 35px;
+
+    height: 30px;
+
+    background: black;
+
+    border-radius: 50% 50% 60% 60% / 70% 70% 100% 100%;
+
+    top: 120px;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+  }
+
+  /* Mouth */
+
+  .mouth {
+
+    position: absolute;
+
+    width: 70px;
+
+    height: 35px;
+
+    border-bottom: 3px solid black;
+
+    border-radius: 0 0 60px 60px;
+
+    top: 150px;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+  }
+
+  /* Blush */
+
+  .blush {
+
+    position: absolute;
+
+    width: 40px;
+
+    height: 20px;
+
+    background: #f9a2a2;
+
+    border-radius: 50%;
+
+    top: 125px;
+
+    opacity: 0.3;
+
+  }
+
+  .blush.left {
+
+    left: 20px;
+
+  }
+
+  .blush.right {
+
+    right: 20px;
+  }
 
    
